@@ -4,7 +4,7 @@ var path = require('path');
 
 var app = express();
 var articles={
-   article-one:{
+   'article-one':{
     title: 'Article One| Mangesh Patil',
     heading: 'Article One',
     date: 'sep 5,2016',
