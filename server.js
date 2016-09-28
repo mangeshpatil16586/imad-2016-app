@@ -15,11 +15,11 @@ app.get('/article-one',function(req,res){
     });
     
 app.get('/article-two',function(req,res){
-    res.sendFile('Artical two requested  and will be server here');
+    res.send('Artical two requested  and will be server here');
     });
     
 app.get('/article-three',function(req,res){
-    res.sendFile('Artical three requested  and will be server here');
+    res.send('Artical three requested  and will be server here');
     });   
     
     
