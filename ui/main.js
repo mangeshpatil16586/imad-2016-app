@@ -22,7 +22,7 @@ img.onClick=function(){
 var buttonClick=document.getElementById('counter');
 var counter=0;
 
-button.onClick=function(){
+buttonClick.onClick=function(){
     
     var request=new XMLHttpRequest();
     
