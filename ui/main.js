@@ -23,6 +23,9 @@ var buttonClick=document.getElementById('counter');
 var counter=0;
 
 button.onClick=function(){
+    
+    var request=new XMLHttpRequest();
+    
   //Make a request To counter endPoint
   
   
