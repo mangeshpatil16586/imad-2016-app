@@ -6,4 +6,7 @@ element.innerHTML='New value of Main Page';
 
 //Move the Image
 
-var img=document.getElementById('')
+var img=document.getElementById('madi');
+img.onClick=function(){
+    img.style.marginLeft='100px';
+};
