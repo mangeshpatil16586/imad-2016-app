@@ -1,4 +1,4 @@
-//change the text
+/*//change the text
 
 var element=document.getElementById('main_text');
 element.innerHTML='New value of Main Page';
@@ -17,4 +17,20 @@ function moveRight(){
 img.onClick=function(){
     var interval=setInterval(moveRight,50);
    // img.style.marginLeft='100px';
+}; */
+
+var buttonClick=document.getElementById('counter');
+var counter=0;
+
+button.onClick=function(){
+  //Make a request To counter endPoint
+  
+  
+  //Capture the response and store it in a veriable
+  
+  //render the veriable
+  
+  counter=counter+1;
+  var span=document.getElementById('count');
+  span.innerHtml=counter.toString();
 };
