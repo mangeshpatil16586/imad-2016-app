@@ -34,6 +34,6 @@ buttonClick.onClick=function(){
   //render the veriable
   
   counter=counter+1;
-  var span=document.getElementById('count');
-  span.innerHTML=counter.toString();
+  document.getElementById('count').innerHTML=counter++;
+  counter.toString();
 };
