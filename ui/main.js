@@ -32,7 +32,7 @@ button.onclick = function(){
   
   //render the veriable
   counter++;
- var span1 = document.getElementById('count');
- span1.innerHTML = "Hello world";
+  document.getElementById('count').innerHTML=counter;
+ 
   
 };
