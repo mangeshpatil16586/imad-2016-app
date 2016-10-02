@@ -19,10 +19,10 @@ img.onClick=function(){
    // img.style.marginLeft='100px';
 }; */
 
-var buttonClick=document.getElementById('counter');
+var button=document.getElementById('counter');
 var counter=0;
 
-buttonClick.onClick=function(){
+button.onClick=function(){
     
     var request=new XMLHttpRequest();
     
@@ -33,7 +33,6 @@ buttonClick.onClick=function(){
   
   //render the veriable
   
-  counter=counter+1;
   document.getElementById('count').innerHTML=counter++;
   counter.toString();
 };
