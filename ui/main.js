@@ -31,7 +31,7 @@ button.onclick = function(){
   //Capture the response and store it in a veriable
   
   //render the veriable
-  counter=counter + 1; 
+  counter++;
  var span1 = document.getElementById('count');
  span1.innerHTML = "Hello world";
   
