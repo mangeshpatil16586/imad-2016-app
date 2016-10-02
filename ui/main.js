@@ -24,7 +24,6 @@ var counter=0;
 
 button.onclick=function(){
     
-    var request=new XMLHttpRequest();
     
   //Make a request To counter endPoint
   
@@ -33,6 +32,7 @@ button.onclick=function(){
   
   //render the veriable
   
-  document.getElementById('count').innerHTML=counter++;
+ var span=document.getElementById('count');
+ span.innerHTML=counter.toString();
   counter.toString();
 };
