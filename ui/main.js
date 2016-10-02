@@ -5,5 +5,5 @@ var display= document.getElementById('count');
 
 button.onclick = function(){
   counter++;
- display.innerHTML=counter;
+ display.innerHTML=counter.toString();
 };
